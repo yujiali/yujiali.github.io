@@ -1,0 +1,33 @@
+- institute: University of Toronto
+  courses:
+    - time: Winter 2015
+      id: CSC 412/2506
+      name: Probabilistic Graphical Models
+    - time: Fall 2014
+      id: CSC 411
+      name: Machine Learning and Data Mining
+    - time: Winter 2014
+      id: CSC 108
+      name: Introduction to Computer Programming
+    - time: Fall 2013
+      id: CSC 263
+      name: Data Structures
+    - time: Winter 2013
+      id: CSC 108
+      name: Introduction to Computer Programming
+    - time: Fall 2012
+      id: CSC 411
+      name: Machine Learning and Data Mining
+    - time: Winter 2012
+      id: CSC 190
+      name: Computer Algorithms, Data Structures and Languages
+    - time: Fall 2011
+      id: CSC 165
+      name: Mathematical Expression and Reasoning for Computer Science
+
+- institute: Tsinghua University
+  courses:
+    - time: Spring 2011
+      name: Advanced Data Structures
+    - time: Spring 2011
+      name: Machine Learning and Knowledge Discovery

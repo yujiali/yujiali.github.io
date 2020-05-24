@@ -1,0 +1,79 @@
+---
+layout: default
+title: Yujia Li
+---
+<h1>Yujia Li</h1>
+<p>Research Scientist, DeepMind</p>
+
+<h2>News</h2>
+<ul>
+  {%- for item in site.data.news -%}
+  <li>
+    {%- if item.link -%}<a href="{{ item.link }}">{%- endif -%}
+    {{ item.headline }}
+    {%- if item.link -%}</a>{%- endif -%}
+  </li>
+  {%- endfor -%}
+</ul>
+
+<h2>Education / Work Experience</h2>
+<ul>
+  {%- for item in site.data.experience -%}
+  <li>
+    {{ item.start }} - {{ item.end }}: {{ item.position }}, {{ item.affiliation }}.
+  </li>
+  {%- endfor -%}
+</ul>
+
+<h2 id="sec_publications">Publications</h2>
+<ul>
+  {%- for paper in site.data.papers -%}
+  <li>
+    <p><a href="{{ paper.url }}">{{ paper.title }}</a></p>
+    <p>{{ paper.authors | join: ", " }}
+    {%- if paper.authors_note -%}{{ paper.authors_note }}{%- endif -%}</p>
+    {%- for venue in paper.venues -%}
+    <p>{{ venue.name }}, {{ venue.year }}</p>
+    {%- if venue.recognition -%}<p>{{ venue.recognition }}</p>{%- endif -%}
+    {%- endfor -%}
+    {%- if paper.links -%}
+    <p>
+    {%- for link in paper.links -%}
+      [<a href="{{ link[1] }}">{{ link[0] }}</a>]
+    {%- endfor -%}
+    </p>
+    {%- endif -%}
+  </li>
+  {%- endfor -%}
+</ul>
+
+<h2>Thesis</h2>
+<ul>
+  {%- for thesis in site.data.thesis -%}
+  <li>
+    <a href="{{ thesis.link }}">{{ thesis.title }}</a>, {{ thesis.type }}
+  </li>
+  {%- endfor -%}
+</ul>
+
+<h2>Teaching Experience</h2>
+{%- for experience in site.data.teaching -%}
+<p>Courses TA'ed at {{ experience.institute }}:
+  <ul>
+    {%- for course in experience.courses -%}
+    <li>{{ course.time }}, {% if course.id %}{{ course.id }} - {% endif %}{{course.name}}
+    </li>
+    {%- endfor -%}
+  </ul>
+</p>
+{%- endfor -%}
+
+<h2>Honors and Awards</h2>
+<ul>
+  {%- for honor in site.data.honors -%}
+  <li>{{ honor.time }}, {{ honor.name }}</li>
+  {%- endfor -%}
+</ul>
+
+<h2>Other Stuff</h2>
+<p>My name in Chinese: <a href="assets/images/name.png"><img src="assets/images/name.png" alt="My Name" height="30px"/></a></p>

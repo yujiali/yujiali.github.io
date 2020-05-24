@@ -1,0 +1,377 @@
+# Note: some symbols in a YAML file have special meanings, like `:` and `-`.
+# Make sure to enclose strings that contain these symbols in quotes.
+
+- title: "REGAL: Transfer Learning for Fast Optimization of Computation Graphs"
+  authors:
+    - Aditya Paliwal
+    - Felix Gimeno
+    - Vinod Nair
+    - Yujia Li
+    - Miles Lubin
+    - Pushmeet Kohli
+    - Oriol Vinyals
+  venues:
+    - name: International Conference on Learning Representations (ICLR)
+      year: 2020
+  url: https://arxiv.org/abs/1905.02494
+  links:
+    data: https://github.com/deepmind/deepmind-research/tree/master/regal
+
+- title: "Graph Convolutional Transformer: Learning the Graphical Structure of Electronic Health Records"
+  authors:
+    - Edward Choi
+    - Zhen Xu
+    - Yujia Li
+    - Michael W. Dusenberry
+    - Gerardo Flores
+    - Yuan Xue
+    - Andrew M. Dai
+  venues:
+    - name: AAAI Conference on Artificial Intelligence (AAAI)
+      year: 2020
+    - name: ICML workshop on Learning and Reasoning with Graph-Structured Representations
+      year: 2019
+  url: https://arxiv.org/abs/1906.04716
+
+- title: Learning Transferable Graph Exploration
+  authors:
+    - Hanjun Dai
+    - Yujia Li
+    - Chenglong Wang
+    - Rishabh Singh
+    - Po-Sen Huang
+    - Pushmeet Kohli
+  venues:
+    - name: Neural Information Processing Systems (NeurIPS)
+      year: 2019
+  url: https://arxiv.org/abs/1910.12980
+
+- title: Efficient Graph Generation with Graph Recurrent Attention Networks
+  authors:
+    - Renjie Liao
+    - Yujia Li
+    - Yang Song
+    - Shenlong Wang
+    - Charlie Nash
+    - William L. Hamilton
+    - David Duvenaud
+    - Raquel Urtasun
+    - Richard S. Zemel
+  venues:
+    - name: Neural Information Processing Systems (NeurIPS)
+      year: 2019
+  url: https://arxiv.org/abs/1910.00760
+  links:
+    code: https://github.com/lrjconan/GRAN
+
+- title: Fast Training of Sparse Graph Neural Networks on Dense Hardware
+  authors:
+    - Matej Balog
+    - Bart van Merriënboer
+    - Subhodeep Moitra
+    - Yujia Li
+    - Daniel Tarlow
+  venues:
+    - name: arXiv:1906.11786
+      year: 2019
+  url: https://arxiv.org/abs/1906.11786
+
+- title: Graph Matching Networks for Learning the Similarity of Graph Structured Objects
+  authors:
+    - Yujia Li
+    - Chenjie Gu
+    - Thomas Dullien
+    - Oriol Vinyals
+    - Pushmeet Kohli
+  venues:
+    - name: International Conference on Machine Learning (ICML)
+      year: 2019
+      recognition: Long Oral Presentation
+  url: https://arxiv.org/abs/1904.12787
+  links:
+    slides: http://www.cs.toronto.edu/~yujiali/files/talks/icml19_gmn.pdf
+    poster: http://www.cs.toronto.edu/~yujiali/files/posters/icml19_gmn_poster.pdf
+    code: https://github.com/deepmind/deepmind-research/tree/master/graph_matching_networks
+
+- title: "Compositional Imitation Learning: Explaining and executing one task at a time"
+  authors:
+    - Thomas Kipf
+    - Yujia Li
+    - Hanjun Dai
+    - Vinicius Zambaldi
+    - Edward Grefenstette
+    - Pushmeet Kohli
+    - Peter Battaglia
+  venues:
+    - name: International Conference on Machine Learning (ICML)
+      year: 2019
+      recognition: Long Oral Presentation
+    - name: A previous version appeared in the NeurIPS Learning by Instruction workshop
+      year: 2018
+  url: https://arxiv.org/abs/1812.01483
+
+- title: Deep Reinforcement Learing with Relational Inductive Biases
+  authors:
+    - Vinicius Zambaldi
+    - David Raposo
+    - Adam Santoro
+    - Victor Bapst
+    - Yujia Li
+    - Igor Babuschkin
+    - Karl Tuyls
+    - David Reichert
+    - Timothy Lillicrap
+    - Edward Lockhart
+    - Murray Shanahan
+    - Victoria Langston
+    - Razvan Pascanu
+    - Matthew Botvinick
+    - Oriol Vinyals
+    - Peter Battaglia
+  venues:
+    - name: International Conference on Learning Representations (ICLR)
+      year: 2019
+  url: https://arxiv.org/abs/1806.01830
+  links:
+    openreview: https://openreview.net/forum?id=HkxaFoC9KQ
+
+- title: Relational inductive biases, deep learning, and graph networks
+  authors:
+    - Peter W. Battaglia
+    - Jessica B. Hamrick
+    - Victor Bapst
+    - Alvaro Sanchez-Gonzalez
+    - Vinicius Zambaldi
+    - Mateusz Malinowski
+    - Andrea Tacchetti
+    - David Raposo
+    - Adam Santoro
+    - Ryan Faulkner
+    - Caglar Gulcehre
+    - Francis Song
+    - Andrew Ballard
+    - Justin Gilmer
+    - George Dahl
+    - Ashish Vaswani
+    - Kelsey Allen
+    - Charles Nash
+    - Victoria Langston
+    - Chris Dyer
+    - Nicolas Heess
+    - Daan Wierstra
+    - Pushmeet Kohli
+    - Matt Botvinick
+    - Oriol Vinyals
+    - Yujia Li
+    - Razvan Pascanu
+  venues:
+    - name: arXiv:1806.01261
+      year: 2018
+  url: https://arxiv.org/abs/1806.01261
+
+- title: Learning Deep Generative Models of Graphs
+  authors:
+    - Yujia Li
+    - Oriol Vinyals
+    - Chris Dyer
+    - Razvan Pascanu
+    - Peter Battaglia
+  venues:
+    - name: arXiv:1803.03324
+      year: 2018
+    - name: Invited to ICLR Workshop Track
+      year: 2018
+  url: https://arxiv.org/abs/1803.03324
+  links:
+    slides: http://www.cs.toronto.edu/~yujiali/files/talks/Learning_deep_graph_generative_models.pdf
+
+- title: Learning Model-Based Planning from Scratch
+  authors:
+    - Razvan Pascanu*
+    - Yujia Li*
+    - Oriol Vinyals
+    - Nicolas Heess
+    - Lars Buesing
+    - Sébastien Racanière
+    - David Reichert
+    - Théophane Weber
+    - Daan Wierstra
+    - Peter Battaglia
+  authors_note: (* denotes equal contribution)
+  venues:
+    - name: arXiv:1707.06170
+      year: 2017
+  url: https://arxiv.org/abs/1707.06170
+
+- title: Dualing GANs
+  authors:
+    - Yujia Li
+    - Alexander Schwing
+    - Kuan-Chieh Wang
+    - Richard Zemel
+  venues:
+    - name: Neural Information Processing Systems (NIPS)
+      year: 2017
+      recognition: Spotlight Presentation
+  url: https://arxiv.org/abs/1706.06216
+  links:
+    poster: http://www.cs.toronto.edu/~yujiali/papers/nips17_dualgan_poster.pdf
+    teaser slides: http://www.cs.toronto.edu/~yujiali/papers/nips17_dualgan_slides.pdf
+
+- title: Imagination-Augmented Agents for Deep Reinforcement Learning
+  authors:
+    - Théophane Weber*
+    - Sébastien Racanière*
+    - David P. Reichert*
+    - Lars Buesing
+    - Arthur Guez
+    - Danilo Jimenez Rezende
+    - Adria Puigdomènech Badia
+    - Oriol Vinyals
+    - Nicolas Heess
+    - Yujia Li
+    - Razvan Pascanu
+    - Peter Battaglia
+    - David Silver
+    - Daan Wierstra
+  authors_note: (* denotes equal contribution)
+  venues:
+    - name: Neural Information Processing Systems (NIPS)
+      year: 2017
+      recognition: Oral Presentation
+  url: https://arxiv.org/abs/1707.06203
+
+- title: Understanding the Effective Receptive Field in Deep Convolutional Neural Networks
+  authors:
+    - Wenjie Luo*
+    - Yujia Li*
+    - Raquel Urtasun
+    - Richard Zemel
+  authors_note: (* denotes equal contribution)
+  venues:
+    - name: Neural Information Processing Systems (NIPS)
+      year: 2016
+  links:
+    paper: http://www.cs.toronto.edu/~yujiali/files/papers/nips2016_receptive_field.pdf
+    poster: http://www.cs.toronto.edu/~yujiali/files/posters/nips2016_erf_poster.pdf
+
+- title: Gated Graph Sequence Neural Networks
+  authors:
+    - Yujia Li
+    - Daniel Tarlow
+    - Marc Brockschmidt
+    - Richard Zemel
+  venues:
+    - name: International Conference on Learning Representations (ICLR)
+      year: 2016
+  url: http://arxiv.org/abs/1511.05493
+  links:
+    slides: http://www.cs.toronto.edu/~yujiali/files/talks/iclr16_ggnn_talk.pdf
+    poster: http://www.cs.toronto.edu/~yujiali/files/posters/iclr2016_ggnn_poster.pdf
+    code: https://github.com/yujiali/ggnn
+    talk: http://research.microsoft.com/apps/video/default.aspx?id=263975&r=1
+
+- title: The Variational Fair Auto Encoder
+  authors:
+    - Christos Louizos
+    - Kevin Swersky
+    - Yujia Li
+    - Max Welling
+    - Richard Zemel
+  venues:
+    - name: International Conference on Learning Representations (ICLR)
+      year: 2016
+      recognition: Oral Presentation
+  url: http://arxiv.org/abs/1511.00830
+
+- title: Generative Moment Matching Networks
+  authors:
+    - Yujia Li
+    - Kevin Swersky
+    - Richard Zemel
+  venues:
+    - name: International Conference on Machine Learning (ICML)
+      year: 2015
+  url: http://arxiv.org/abs/1502.02761
+  links:
+    code: https://github.com/yujiali/gmmn
+    project page: http://www.cs.toronto.edu/~yujiali/proj/gmmn.html
+
+- title: Feedback-Based Handwriting Recognition from Inertial Sensor Data for Wearable Devices
+  authors:
+    - Yujia Li
+    - Kaisheng Yao
+    - Geoffrey Zweig
+  venues:
+    - name: The 40th IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)
+      year: 2015
+  url: http://www.cs.toronto.edu/~yujiali/files/papers/icassp15_gesture.pdf
+
+- title: Learning Unbiased Features
+  authors:
+    - Yujia Li
+    - Kevin Swersky
+    - Richard Zemel
+  venues:
+    - name: NIPS workshop on Transfer and Multi-Task Learning
+      year: 2014
+  url: http://www.cs.toronto.edu/~yujiali/files/papers/nips14_unbiased_workshop.pdf
+  links:
+    slides: http://www.cs.toronto.edu/~yujiali/files/talks/nips14_unbiased_talk.pdf
+    poster: http://www.cs.toronto.edu/~yujiali/files/posters/nips14_unbiased_poster.pdf
+
+- title: High Order Regularization for Semi-Supervised Learning of Structured Output Problems
+  authors:
+    - Yujia Li
+    - Richard Zemel
+  venues:
+    - name: International Conference on Machine Learning (ICML)
+      year: 2014
+  url: http://www.cs.toronto.edu/~yujiali/files/papers/icml2014_ssl.pdf
+  links:
+    slides: http://www.cs.toronto.edu/~yujiali/files/talks/icml14_ssl_talk.pdf
+    poster: http://www.cs.toronto.edu/~yujiali/files/posters/icml14_ssl_poster.pdf
+    data: http://www.cs.toronto.edu/~yujiali/files/data/mrseg_data_release.zip
+    code: http://www.cs.toronto.edu/~yujiali/files/code/mrseg_release.zip
+    video: http://techtalks.tv/talks/high-order-regularization-for-semi-supervised-learning-of-structured-output-problems/60912/
+
+- title: Mean Field Networks
+  authors:
+    - Yujia Li
+    - Richard Zemel
+  venues:
+    - name: ICML workshop on Learning Tractable Probabilistic Models
+      year: 2014
+  url: http://www.cs.toronto.edu/~yujiali/files/papers/icml14_mfn.pdf
+  links:
+    slides: http://www.cs.toronto.edu/~yujiali/files/talks/icml14_mfn_talk.pdf
+    poster: http://www.cs.toronto.edu/~yujiali/files/posters/icml14_mfn_poster.pdf
+
+- title: Exploring Compositional High Order Pattern Potentials for Structured Output Learning
+  authors:
+    - Yujia Li
+    - Daniel Tarlow
+    - Richard Zemel
+  venues:
+    - name: The 26th IEEE Conference on Computer Vision and Pattern Recognition (CVPR)
+      year: 2013
+      recognition: Oral Presentation
+  url: http://www.cs.toronto.edu/~yujiali/papers/cvpr13.pdf
+  links:
+    supplementary material: http://www.cs.toronto.edu/~yujiali/papers/cvpr13_sup.pdf
+    slides: http://www.cs.toronto.edu/~yujiali/papers/cvpr13_slides.pdf
+    poster: http://www.cs.toronto.edu/~yujiali/papers/cvpr13_poster.pdf
+    data: http://www.cs.toronto.edu/~yujiali/papers/cvpr13_data.zip
+    code: http://www.cs.toronto.edu/~yujiali/papers/chopps.zip
+    video: http://techtalks.tv/talks/exploring-compositional-high-order-pattern-potentials-for-structured-output-learning/58620/
+
+- title: Celebrity Recommendation with Collaborative Social Topic Regression
+  authors:
+    - Xuetao Ding
+    - Xiaoming Jin
+    - Yujia Li
+    - Lianghao Li
+  venues:
+    - name: Proceedings of the 23rd International Joint Conference on Artificial Intelligence (IJCAI)
+      year: 2013
+  url: http://www.cs.toronto.edu/~yujiali/papers/ijcai13_final.pdf
