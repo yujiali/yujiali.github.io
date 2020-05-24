@@ -3,6 +3,8 @@ layout: default
 title: Yujia Li
 ---
 <h1>Yujia Li</h1>
+<p><img src="assets/images/profile.jpg" alt="Profile Picture" width="180"/></p>
+<p><img src="assets/images/random.png" alt="Random" width="130"/></p>
 <p>Research Scientist, DeepMind</p>
 
 <h2>News</h2>
@@ -12,15 +14,6 @@ title: Yujia Li
     {%- if item.link -%}<a href="{{ item.link }}">{%- endif -%}
     {{ item.headline }}
     {%- if item.link -%}</a>{%- endif -%}
-  </li>
-  {%- endfor -%}
-</ul>
-
-<h2>Education / Work Experience</h2>
-<ul>
-  {%- for item in site.data.experience -%}
-  <li>
-    {{ item.start }} - {{ item.end }}: {{ item.position }}, {{ item.affiliation }}.
   </li>
   {%- endfor -%}
 </ul>
@@ -52,6 +45,15 @@ title: Yujia Li
   {%- for thesis in site.data.thesis -%}
   <li>
     <a href="{{ thesis.link }}">{{ thesis.title }}</a>, {{ thesis.type }}
+  </li>
+  {%- endfor -%}
+</ul>
+
+<h2>Education / Work Experience</h2>
+<ul>
+  {%- for item in site.data.experience -%}
+  <li>
+    {{ item.start }} - {{ item.end }}: {{ item.position }}, {{ item.affiliation }}.
   </li>
   {%- endfor -%}
 </ul>
