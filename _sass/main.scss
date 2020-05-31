@@ -1,0 +1,30 @@
+// some constants
+$left-padding: 50px;
+$nav-bar-vertical-padding: 20px;
+$body-vertical-padding: 0px;
+
+// style sheet
+body {
+  font-family: Helvetica Neue, Helvetica, Arial;
+  padding: 0px;
+  margin: 0;
+}
+
+nav {
+  background-color: #000;
+  padding: $nav-bar-vertical-padding $left-padding;
+}
+
+nav a {
+  padding: $nav-bar-vertical-padding;
+  text-decoration: none;
+  color: #dddddd;
+}
+
+nav a:hover {
+  background-color: #555;
+}
+
+#content {
+  padding: $body-vertical-padding $left-padding;
+}
