@@ -1,6 +1,31 @@
 # Note: some symbols in a YAML file have special meanings, like `:` and `-`.
 # Make sure to enclose strings that contain these symbols in quotes.
 
+- title: Strong Generalization and Efficiency in Neural Programs
+  authors:
+    - Yujia Li
+    - Felix Gimeno
+    - Pushmeet Kohli
+    - Oriol Vinyals
+  venues:
+    - name: arXiv:2007.03629
+      year: 2020
+  url: https://arxiv.org/abs/2007.03629
+
+- title: Scalable Deep Generative Modeling for Sparse Graphs
+  authors:
+    - Hanjun Dai
+    - Azade Nazi
+    - Yujia Li
+    - Bo Dai
+    - Dale Schuurmans
+  venues:
+    - name: International Conference on Machine Learning (ICML)
+      year: 2020
+  url: https://arxiv.org/abs/2006.15502
+  links:
+    code: https://github.com/google-research/google-research/tree/master/bigg
+
 - title: "REGAL: Transfer Learning for Fast Optimization of Computation Graphs"
   authors:
     - Aditya Paliwal
@@ -32,6 +57,18 @@
     - name: ICML workshop on Learning and Reasoning with Graph-Structured Representations
       year: 2019
   url: https://arxiv.org/abs/1906.04716
+
+- title: Prioritized Unit Propagation with Periodic Resetting is (Almost) All You Need for Random SAT Solving
+  authors:
+    - Xujie Si*
+    - Yujia Li*
+    - Vinod Nair*
+    - Felix Gimeno
+  authors_note: (* denotes equal contribution)
+  venues:
+    - name: arXiv:1912.05906
+      year: 2019
+  url: https://arxiv.org/abs/1912.05906
 
 - title: Learning Transferable Graph Exploration
   authors:
