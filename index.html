@@ -58,6 +58,17 @@ title: Yujia Li
   {%- endfor -%}
 </ul>
 
+<h2>Community Service</h2>
+{%- for service in site.data.community -%}
+<ul>
+  <li><b>{{ service.role }}</b>:
+    {% for venue in service.venues %}
+    {{ venue.name }}{% if venue.year %} {{ venue.year | join: "," }}{% endif %}
+    {%- if forloop.last -%}.{%- else -%},{%- endif -%}
+    {% endfor %}
+</ul>
+{%- endfor -%}
+
 <h2>Teaching Experience</h2>
 {%- for experience in site.data.teaching -%}
 <p>Courses TA'ed at {{ experience.institute }}:

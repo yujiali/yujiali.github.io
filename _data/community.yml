@@ -1,0 +1,23 @@
+- role: Area Chair
+  venues:
+    - name: NeurIPS
+      year: 2020
+    - name: ICLR
+      year: 2021
+- role: Reviewer
+  venues:
+    - name: ICML
+      year: 2016-2020
+    - name: NeurIPS
+      year: 2015-2019
+    - name: ICLR
+      year: 2017, 2019, 2020
+    - name: UAI
+      year: 2015, 2016, 2018
+    - name: CVPR
+      year: 2017, 2019
+    - name: ECCV
+      year: 2016
+    - name: JMLR
+    - name: IJCV
+    - name: TPAMI
