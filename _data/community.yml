@@ -6,10 +6,10 @@
       year: 2021
 - role: Reviewer
   venues:
-    - name: ICML
-      year: 2016-2020
     - name: NeurIPS
       year: 2015-2019
+    - name: ICML
+      year: 2016-2020
     - name: ICLR
       year: 2017, 2019, 2020
     - name: UAI

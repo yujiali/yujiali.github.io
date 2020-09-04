@@ -2,12 +2,15 @@
 $left-padding: 50px;
 $nav-bar-vertical-padding: 20px;
 $body-vertical-padding: 0px;
+$event-time-color: #a0a0a0;
+$event-time-sep: 10px;
 
 // style sheet
 body {
   font-family: Helvetica Neue, Helvetica, Arial;
   padding: 0px;
   margin: 0;
+  background-color: #e8e8e8;
 }
 
 nav {
@@ -23,8 +26,128 @@ nav a {
 
 nav a:hover {
   background-color: #555;
+  color: #dddddd;
 }
 
 #content {
-  padding: $body-vertical-padding $left-padding;
+  padding-top: $body-vertical-padding;
+  padding-left: $left-padding;
+  display: flex;
+}
+
+#profile {
+  float: left;
+  width: 150px;
+  margin-top: 30px;
+  text-align: center;
+  margin-right: 50px;
+}
+
+#page {
+  float: left;
+  flex-grow: 1;
+  margin-top: 0px;
+  background-color: #ffffff;
+  padding: 30px;
+}
+
+@media screen and (max-width: 700px) {
+  nav {
+    padding-left: 0px;
+  }
+
+  #content {
+    display: block;
+    padding-left: 0px;
+  }
+  #profile, #page {
+    padding: 30px;
+  }
+  #profile {
+    float: none;
+    margin: auto;
+  }
+
+  #page {
+    flex-grow: initial;
+  }
+}
+
+p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+a {
+  font-weight: 500;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #3278c8;
+}
+
+#profile h1 {
+  margin-top: 0px;
+}
+
+#profile p {
+  margin-bottom: 3px;
+}
+
+#profile .position {
+  margin-bottom: 3px;
+}
+
+#profile #email {
+  margin-top: 15px;
+}
+
+.section h2 {
+  margin-top: 0px;
+}
+
+.section {
+  margin-bottom: 40px;
+}
+
+.section ul {
+  padding-left: 20px;
+}
+
+.section li {
+  margin-bottom: 2px;
+  list-style-type: none;
+}
+
+.publications li {
+  margin-bottom: 20px;
+}
+
+.publications li p {
+  margin-bottom: 2px;
+}
+
+.venue {
+  color: #486f9c;
+  font-style: italic;
+}
+
+.venue .recognition {
+  margin-left: 10px;
+  color: #9c4f48;
+  font-weight: 500;
+}
+
+.link {
+  margin-right: 5px;
+}
+
+.event-time {
+  color: $event-time-color;
+  margin-right: $event-time-sep;
+}
+
+.venue-year {
+  color: $event-time-color;
 }

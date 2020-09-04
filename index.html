@@ -2,11 +2,16 @@
 layout: default
 title: Yujia Li
 ---
+<div id="profile">
 <h1>Yujia Li</h1>
-<p><img src="assets/images/profile.jpg" alt="Profile Picture" width="180"/></p>
-<p><img src="assets/images/random.png" alt="Random" width="130"/></p>
-<p>Research Scientist, DeepMind</p>
+<p><img src="assets/images/profile.jpg" alt="Profile Picture" width="150"/></p>
+<p class="position">Research Scientist</p>
+<p class="position">DeepMind</p>
+<p id="email"><img src="assets/images/random.png" alt="Random" width="130"/></p>
+</div>
 
+<div id="page">
+<div class="section">
 <h2>News</h2>
 <ul>
   {%- for item in site.data.news -%}
@@ -17,29 +22,38 @@ title: Yujia Li
   </li>
   {%- endfor -%}
 </ul>
+</div>
 
+<div class="section">
 <h2 id="sec_publications">Publications</h2>
+<div class="publications">
 <ul>
   {%- for paper in site.data.papers -%}
   <li>
-    <p><a href="{{ paper.url }}">{{ paper.title }}</a></p>
-    <p>{{ paper.authors | join: ", " }}
-    {%- if paper.authors_note -%}{{ paper.authors_note }}{%- endif -%}</p>
+    <p class="title"><a href="{{ paper.url }}">{{ paper.title }}</a></p>
+    <p class="authors">{{ paper.authors | join: ", " }}
+    {% if paper.authors_note %}{{ paper.authors_note }}{% endif %}</p>
     {%- for venue in paper.venues -%}
-    <p>{{ venue.name }}, {{ venue.year }}</p>
-    {%- if venue.recognition -%}<p>{{ venue.recognition }}</p>{%- endif -%}
+    <p class="venue">{{ venue.name }}, {{ venue.year }}
+      {%- if venue.recognition -%}
+      <span class="recognition">{{ venue.recognition }}</span>
+      {%- endif -%}
+    </p>
     {%- endfor -%}
     {%- if paper.links -%}
     <p>
     {%- for link in paper.links -%}
-      [<a href="{{ link[1] }}">{{ link[0] }}</a>]
+      <span class="link">[<a href="{{ link[1] }}">{{ link[0] }}</a>]</span>
     {%- endfor -%}
     </p>
     {%- endif -%}
   </li>
   {%- endfor -%}
 </ul>
+</div>
+</div>
 
+<div class="section">
 <h2>Thesis</h2>
 <ul>
   {%- for thesis in site.data.thesis -%}
@@ -48,45 +62,58 @@ title: Yujia Li
   </li>
   {%- endfor -%}
 </ul>
+</div>
 
+<div class="section">
 <h2>Education / Work Experience</h2>
 <ul>
   {%- for item in site.data.experience -%}
   <li>
-    {{ item.start }} - {{ item.end }}: {{ item.position }}, {{ item.affiliation }}.
+    <span class="event-time">{{ item.start }} - {{ item.end }}</span> {{ item.position }}, {{ item.affiliation }}.
   </li>
   {%- endfor -%}
 </ul>
+</div>
 
+<div class="section">
 <h2>Community Service</h2>
-{%- for service in site.data.community -%}
 <ul>
+  {%- for service in site.data.community -%}
   <li><b>{{ service.role }}</b>:
     {% for venue in service.venues %}
-    {{ venue.name }}{% if venue.year %} {{ venue.year | join: "," }}{% endif %}
+    {{ venue.name }}{% if venue.year %} <span class="venue-year">({{ venue.year | join: "," }})</span>{% endif %}
     {%- if forloop.last -%}.{%- else -%},{%- endif -%}
     {% endfor %}
+  </li>
+  {%- endfor -%}
 </ul>
-{%- endfor -%}
+</div>
 
+<div class="section">
 <h2>Teaching Experience</h2>
 {%- for experience in site.data.teaching -%}
 <p>Courses TA'ed at {{ experience.institute }}:
   <ul>
     {%- for course in experience.courses -%}
-    <li>{{ course.time }}, {% if course.id %}{{ course.id }} - {% endif %}{{course.name}}
+    <li><span class="event-time">{{ course.time }}{% if course.id %} {{ course.id }}{% endif %}</span>{{course.name}}
     </li>
     {%- endfor -%}
   </ul>
 </p>
 {%- endfor -%}
+</div>
 
+<div class="section">
 <h2>Honors and Awards</h2>
 <ul>
   {%- for honor in site.data.honors -%}
-  <li>{{ honor.time }}, {{ honor.name }}</li>
+  <li><span class="event-time">{{ honor.time }}</span>{{ honor.name }}</li>
   {%- endfor -%}
 </ul>
+</div>
 
+<div class="section">
 <h2>Other Stuff</h2>
 <p>My name in Chinese: <a href="assets/images/name.png"><img src="assets/images/name.png" alt="My Name" height="30px"/></a></p>
+</div>
+</div>

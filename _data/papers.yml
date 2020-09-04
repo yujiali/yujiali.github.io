@@ -64,7 +64,7 @@
     - Yujia Li*
     - Vinod Nair*
     - Felix Gimeno
-  authors_note: (* denotes equal contribution)
+  authors_note: (*denotes equal contribution)
   venues:
     - name: arXiv:1912.05906
       year: 2019
@@ -234,7 +234,7 @@
     - Théophane Weber
     - Daan Wierstra
     - Peter Battaglia
-  authors_note: (* denotes equal contribution)
+  authors_note: (*denotes equal contribution)
   venues:
     - name: arXiv:1707.06170
       year: 2017
@@ -271,7 +271,7 @@
     - Peter Battaglia
     - David Silver
     - Daan Wierstra
-  authors_note: (* denotes equal contribution)
+  authors_note: (*denotes equal contribution)
   venues:
     - name: Neural Information Processing Systems (NIPS)
       year: 2017
@@ -284,7 +284,7 @@
     - Yujia Li*
     - Raquel Urtasun
     - Richard Zemel
-  authors_note: (* denotes equal contribution)
+  authors_note: (*denotes equal contribution)
   venues:
     - name: Neural Information Processing Systems (NIPS)
       year: 2016
