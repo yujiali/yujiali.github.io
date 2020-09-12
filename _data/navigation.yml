@@ -1,4 +1,4 @@
 - name: Home
-  link: /
+  link: ""
 - name: Publications
-  link: /#sec_publications
+  link: "#sec_publications"
