@@ -9,7 +9,7 @@
     <div id="blog-column">
       <nav>
         {%- for item in site.data.blog_navigation -%}
-          <a href="{{ item.link }}">
+          <a href="{{ item.link | relative_url }}">
             {{ item.name }}
           </a>
         {%- endfor -%}
