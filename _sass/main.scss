@@ -6,6 +6,7 @@ $event-time-color: #a0a0a0;
 $event-time-sep: 10px;
 
 // style sheet
+
 body {
   font-family: Helvetica Neue, Helvetica, Arial;
   padding: 0px;
@@ -150,4 +151,73 @@ a:hover {
 
 .venue-year {
   color: $event-time-color;
+}
+
+// css for the blog
+
+$blog-column-background-color: #e8e8e8;
+$blog-column-horizontal-padding: 50px;
+$blog-column-nav-background-color: $blog-column-background-color;
+$blog-column-grey-color: #ababab;
+$blog-column-dark-grey-color: #7a7a7a;
+$blog-column-darker-grey-color: #3b3b3b;
+
+#blog {
+  background-color: $blog-column-grey-color;
+  display: flex;
+  justify-content: center;
+  font-family: "Times New Roman", Times, serif;
+}
+
+#blog-column {
+  width: 800px;
+}
+
+#blog-column nav {
+  background-color: $blog-column-nav-background-color;
+  padding: 0px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+#blog-column nav a {
+  padding: $nav-bar-vertical-padding 20px;
+  text-decoration: none;
+  color: $blog-column-grey-color;
+}
+
+#blog-column nav a:hover {
+  background-color: $blog-column-nav-background-color;
+  color: #3c7596;
+}
+
+#blog-content {
+  padding: 20px $blog-column-horizontal-padding;
+  background-color: $blog-column-background-color;
+}
+
+.blog-summary {
+  padding-bottom: 30px;
+}
+
+.blog-summary-title {
+  margin-bottom: 5px;
+  font-size: large;
+}
+
+.blog-summary-date {
+  margin-bottom: 10px;
+  color: $blog-column-dark-grey-color;
+}
+
+.blog-title {
+  color: $blog-column-darker-grey-color;
+  margin-bottom: 5px;
+  font-size: large;
+  font-weight: 500;
+}
+
+.blog-date {
+  margin-bottom: 30px;
+  color: $blog-column-dark-grey-color;
 }
