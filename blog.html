@@ -1,0 +1,20 @@
+---
+permalink: /blog/
+title: Blog
+layout: blog
+---
+<div id="blog-list">
+  {% for post in site.posts %}
+  <div class="blog-summary">
+    <div class="blog-summary-title">
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </div>
+    <div class="blog-summary-date">
+      <span>{{ post.date | date: "%b %d, %Y" }}</span>
+    </div>
+    <div class="blog=summary-content">
+      {{ post.content }}
+    </div>
+  </div>
+  {% endfor %}
+</div>
