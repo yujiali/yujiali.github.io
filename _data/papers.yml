@@ -1,6 +1,77 @@
 # Note: some symbols in a YAML file have special meanings, like `:` and `-`.
 # Make sure to enclose strings that contain these symbols in quotes.
 
+- title: Competition-Level Code Generation with AlphaCode
+  authors:
+    - Yujia Li*
+    - David Choi*
+    - Junyoung Chung*
+    - Nate Kushman*
+    - Julian Schrittwieser*
+    - Rémi Leblond*
+    - Tom Eccles*
+    - James Keeling*
+    - Felix Gimeno*
+    - Agustin Dal Lago*
+    - Thomas Hubert*
+    - Peter Choy*
+    - Cyprien de Masson d’Autume*
+    - Igor Babuschkin
+    - Xinyun Chen
+    - Po-Sen Huang
+    - Johannes Welbl
+    - Sven Gowal
+    - Alexey Cherepanov
+    - James Molloy
+    - Daniel J. Mankowitz
+    - Esme Sutherland Robson
+    - Pushmeet Kohli
+    - Nando de Freitas
+    - Koray Kavukcuoglu
+    - Oriol Vinyals
+  authors_note: (*denotes joint first authors)
+  venues:
+    - name: arXiv (to be updated)
+      year: 2022
+  url: https://storage.googleapis.com/deepmind-media/AlphaCode/competition_level_code_generation_with_alphacode.pdf
+  links:
+    blog: https://deepmind.com/blog/article/Competitive-programming-with-AlphaCode
+    dataset: https://github.com/deepmind/code_contests
+
+- title: "Scaling Language Models: Methods, Analysis & Insights from Training Gopher"
+  authors:
+    - Jack W. Rae and many others
+  venues:
+    - name: arXiv:2112.11446
+      year: 2021
+  url: https://arxiv.org/abs/2112.11446
+  links:
+    blog: https://deepmind.com/blog/article/language-modelling-at-scale
+
+- title: "WikiGraphs: A Wikipedia Text - Knowledge Graph Paired Dataset"
+  authors:
+    - Luyu Wang*
+    - Yujia Li*
+    - Ozlem Aslan
+    - Oriol Vinyals
+  authors_note: (*denotes equal contribution)
+  venues:
+    - name: "TextGraphs-15: Graph-based Methods for Natural Language Processing (NAACL 2021 Workshop)"
+      year: 2021
+  url: https://arxiv.org/abs/2107.09556
+
+- title: Computer-Aided Design as Language
+  authors:
+    - Yaroslav Ganin
+    - Sergey Bartunov
+    - Yujia Li
+    - Ethan Keller
+    - Stefano Saliceti
+  venues:
+    - name: Neural Information Processing Systems (NeurIPS)
+      year: 2021
+  url: https://arxiv.org/abs/2105.02769
+
 - title: Solving Mixed Integer Programs Using Neural Networks
   authors:
     - Vinod Nair
