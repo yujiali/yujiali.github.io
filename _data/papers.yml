@@ -31,12 +31,13 @@
     - Oriol Vinyals
   authors_note: (*denotes joint first authors)
   venues:
-    - name: arXiv (to be updated)
+    - name: arXiv:2203.07814
       year: 2022
-  url: https://storage.googleapis.com/deepmind-media/AlphaCode/competition_level_code_generation_with_alphacode.pdf
+  url: https://arxiv.org/abs/2203.07814
   links:
     blog: https://deepmind.com/blog/article/Competitive-programming-with-AlphaCode
     dataset: https://github.com/deepmind/code_contests
+    examples: https://alphacode.deepmind.com/
 
 - title: "Scaling Language Models: Methods, Analysis & Insights from Training Gopher"
   authors:
