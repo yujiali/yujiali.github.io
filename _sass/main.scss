@@ -199,6 +199,10 @@ $blog-column-darker-grey-color: #3b3b3b;
   padding: 20px $blog-column-horizontal-padding;
 }
 
+#blog-content p {
+  padding: 10px 0px; 
+}
+
 .blog-summary {
   padding-bottom: 30px;
 }
