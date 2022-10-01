@@ -1,9 +1,12 @@
 - role: Area Chair
   venues:
     - name: NeurIPS
-      year: 2020, 2021
+      year: 2020, 2021, 2022
     - name: ICLR
-      year: 2021, 2022
+      year: 2021, 2022, 2023
+- role: Action Editor
+  venues:
+  - name: TMLR
 - role: Reviewer
   venues:
     - name: NeurIPS
