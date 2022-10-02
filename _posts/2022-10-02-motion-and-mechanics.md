@@ -80,7 +80,7 @@ $$
 接下来，我们就看一看如何从行星运动的椭圆轨迹推导出引力的距离平方反比形式。我们从椭圆的极坐标表示形式（至于为什么这表示一个椭圆，可以看我的另一篇文章[TODO]）
 
 $$
-r = \frac{p}{1 + \epsilon \cos \theta}
+r = \frac{p}{1 + e \cos \theta}
 $$
 
 出发，尝试推导出行星的加速度$$a \propto \frac{1}{r^2}$$与距离的平方成反比，因此根据牛顿第二定律$$F = ma \propto \frac{m}{r^2}$$。
@@ -148,13 +148,13 @@ $$
 接下来，我们回到运动轨迹的椭圆表达式，两边对时间求导，得到
 
 $$
-r' = \frac{\epsilon p\sin\theta}{(1 + \epsilon \cos\theta)^2}\theta' = \frac{\epsilon r^2 \sin\theta}{p} \theta' = \frac{\epsilon C}{p}\sin\theta
+r' = \frac{e p\sin\theta}{(1 + e \cos\theta)^2}\theta' = \frac{e r^2 \sin\theta}{p} \theta' = \frac{e C}{p}\sin\theta
 $$
 
 再求导，得到
 
 $$
-r'' = \frac{\epsilon C}{p}\cos \theta \theta' = \frac{\epsilon C}{p}\left(\frac{p}{r} - 1\right)\frac{1}{\epsilon} \frac{C}{r^2} = \frac{C^2}{r^3} - \frac{C^2}{pr^2}
+r'' = \frac{e C}{p}\cos \theta \theta' = \frac{e C}{p}\left(\frac{p}{r} - 1\right)\frac{1}{e} \frac{C}{r^2} = \frac{C^2}{r^3} - \frac{C^2}{pr^2}
 $$
 
 最后，让我们来看旋转中物体的加速度，我们有$$\boldsymbol{r} = r \cdot \hat{\boldsymbol{r}}$$，其中$$r$$是位移的大小，亦即距离，$$\hat{\boldsymbol{r}}$$为$$\boldsymbol{r}$$方向的单位向量，因此
