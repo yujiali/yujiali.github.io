@@ -31,13 +31,16 @@
     - Oriol Vinyals
   authors_note: (*denotes joint first authors)
   venues:
+    - name: Science
+      year: 2022
     - name: arXiv:2203.07814
       year: 2022
-  url: https://arxiv.org/abs/2203.07814
+  url: https://www.science.org/doi/10.1126/science.abq1158
   links:
     blog: https://deepmind.com/blog/article/Competitive-programming-with-AlphaCode
     dataset: https://github.com/deepmind/code_contests
     examples: https://alphacode.deepmind.com/
+    arXiv: https://arxiv.org/abs/2203.07814
 
 - title: "Scaling Language Models: Methods, Analysis & Insights from Training Gopher"
   authors:
@@ -60,6 +63,30 @@
     - name: "TextGraphs-15: Graph-based Methods for Natural Language Processing (NAACL 2021 Workshop)"
       year: 2021
   url: https://arxiv.org/abs/2107.09556
+
+- title: ETA Prediction with Graph Neural Networks in Google Maps
+  authors:
+    - Austin Derrow-Pinion
+    - Jennifer She
+    - David Wong
+    - Oliver Lange
+    - Todd Hester
+    - Luis Perez
+    - Marc Nunkesser
+    - Seongjae Lee
+    - Xueying Guo
+    - Brett Wiltshire
+    - Peter W. Battaglia
+    - Vishal Gupta
+    - Ang Li
+    - Zhongwen Xu
+    - Alvaro Sanchez-Gonzalez
+    - Yujia Li
+    - Petar Veličković
+  venues:
+    - name: The 30th ACM International Conference on Information & Knowledge Management (CIKM)
+      year: 2021
+  url: https://dl.acm.org/doi/abs/10.1145/3459637.3481916
 
 - title: Computer-Aided Design as Language
   authors:

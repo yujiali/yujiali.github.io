@@ -1,8 +1,10 @@
+- headline: Our paper on code generation is published as the cover story of Science!
+  link: https://www.science.org/toc/science/378/6624
 - headline: Our paper on code generation is out!
   link: https://deepmind.com/blog/article/Competitive-programming-with-AlphaCode
 - headline: Our paper on scaling up and training large language models is out!
   link: https://deepmind.com/blog/article/language-modelling-at-scale
-- headline: One paper accepted at NeurIPS 2021.
+# - headline: One paper accepted at NeurIPS 2021.
 # - headline: One paper accepted at ICML 2020.
 # - headline: One paper accepted at ICLR 2020.
 # - headline: One paper accepted at AAAI 2020.
