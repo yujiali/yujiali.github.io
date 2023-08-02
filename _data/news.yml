@@ -1,8 +1,12 @@
-- headline: Our paper on code generation is published as the cover story of Science!
+- headline: Our paper on position embedding for directed graphs is published at ICML 2023.
+  link: https://proceedings.mlr.press/v202/geisler23a.html
+- headline: Our paper on optimizing sorting algorithms is published on Nature.
+  link: https://www.nature.com/articles/s41586-023-06004-9
+- headline: Our paper on code generation is published as the cover story of Science.
   link: https://www.science.org/toc/science/378/6624
-- headline: Our paper on code generation is out!
+- headline: Our paper on code generation is out.
   link: https://deepmind.com/blog/article/Competitive-programming-with-AlphaCode
-- headline: Our paper on scaling up and training large language models is out!
+- headline: Our paper on scaling up and training large language models is out.
   link: https://deepmind.com/blog/article/language-modelling-at-scale
 # - headline: One paper accepted at NeurIPS 2021.
 # - headline: One paper accepted at ICML 2020.
