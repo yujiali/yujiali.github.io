@@ -200,6 +200,6 @@ $$
 
 以上就是从物体运动的轨迹反推其所受到的作用力的一个（或许是史上第一个？）例子，牛顿当年的推导大致就是这样。
 
-这个推导过程中涉及到了新的物理概念“力矩”，并且我们看到$$\boldsymbol{r}\times \boldsymbol{v}$$是一个守恒量。再转动的研究中，我们把$$m \boldsymbol{r} \times \boldsymbol{v}$$称为“角动量”，如果总的力矩为0，那么角动量将保持不变，此即角动量守恒定律。
+这个推导过程中涉及到了新的物理概念“力矩”，并且我们看到$$\boldsymbol{r}\times \boldsymbol{v}$$是一个守恒量。在转动的研究中，我们把$$m \boldsymbol{r} \times \boldsymbol{v}$$称为“角动量”，如果总的力矩为0，那么角动量将保持不变，此即角动量守恒定律。
 
 类似的推导方法还可以用来推导其他运动轨迹所需要的作用力形式，例如$$F \propto r, F\propto \frac{1}{r^3}$$（参考[这里](https://web.math.utk.edu/~freire/m231f07/m231f07NewtonKeplerConverse.pdf)），感兴趣的读者可以自己去延伸一下。

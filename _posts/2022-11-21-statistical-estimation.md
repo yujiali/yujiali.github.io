@@ -7,7 +7,7 @@ title: 统计估计的一些结论
 
 首先，几个基本的tail-probability不等式，对于任意$$\epsilon > 0$$：
 
-* Markov不等式：$$p(X \ge \epsilon) \le \frac{\mathbb{E}[X]}{\epsilon}$$。
+* Markov不等式：对于任意非负$$X$$，$$p(X \ge \epsilon) \le \frac{\mathbb{E}[X]}{\epsilon}$$。
 * Chebyshev不等式：$$p(\lvert X - \mathbb{E}[X]\rvert \ge \epsilon) \le \frac{\mathbb{V}[X]}{\epsilon^2}$$。
 
 之所以叫tail-probability，是因为这些不等式刻画的是概率分布在$$\epsilon$$范围之外的样子。这两个不等式成立的条件仅需要期望$$\mathbb{E}[X]$$以及方差$$\mathbb{V}[X]$$存在，不需要任何其他条件，是适用范围最广的概率不等式。另一方面，因为它们的普适性，这两个不等式给出的bound也尝尝比较宽松，要得到更精确的结果则需要引入一些假设，得到更紧的bound。
@@ -17,7 +17,7 @@ title: 统计估计的一些结论
 证明：
 
 $$
-p(X \ge \epsilon) = \int_{\epsilon}^{\infty} p(x) dx = \frac{1}{\epsilon} \int_{\epsilon}^{\infty} \epsilon p(x) dx \le \frac{1}{\epsilon} \int_{\epsilon}^{\infty} x p(x) dx \le \frac{1}{\epsilon} \int_{-\infty}^\infty x p(x)dx = \frac{\mathbb{E}[X]}{\epsilon}
+p(X \ge \epsilon) = \int_{\epsilon}^{\infty} p(x) dx = \frac{1}{\epsilon} \int_{\epsilon}^{\infty} \epsilon p(x) dx \le \frac{1}{\epsilon} \int_{\epsilon}^{\infty} x p(x) dx \le \frac{1}{\epsilon} \int_0^\infty x p(x)dx = \frac{\mathbb{E}[X]}{\epsilon}
 $$
 
 此即Markov不等式，注意这里我偷懒用$$p$$表示了概率函数和概率密度函数，但从上下文应能看出适用的情况。
