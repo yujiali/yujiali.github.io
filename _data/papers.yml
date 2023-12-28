@@ -1,6 +1,39 @@
 # Note: some symbols in a YAML file have special meanings, like `:` and `-`.
 # Make sure to enclose strings that contain these symbols in quotes.
 
+- title: "Gemini: A Family of Highly Capable Multimodal Models"
+  authors:
+    - Gemini Team, Google
+  venues:
+    - name: arXiv:2312.11805
+      year: 2023
+  url: https://arxiv.org/abs/2312.11805
+  links:
+    Gemini: https://deepmind.google/technologies/gemini/
+
+- title: AlphaCode 2 Technical Report
+  authors:
+    - AlphaCode Team, Google DeepMind
+  venues:
+    - name: Technical Report
+      year: 2023
+  url: https://storage.googleapis.com/deepmind-media/AlphaCode2/AlphaCode2_Tech_Report.pdf
+
+- title: Large Language Models as Analogical Reasoners
+  authors:
+    - Michihiro Yasunaga
+    - Xinyun Chen
+    - Yujia Li
+    - Panupong Pasupat
+    - Jure Leskovec
+    - Percy Liang
+    - Ed H. Chi
+    - Denny Zhou
+  venues:
+    - name: arXiv:2310.01714
+      year: 2023
+  url: https://arxiv.org/abs/2310.01714
+
 - title: Transformers Meet Directed Graphs
   authors:
     - Simon Geisler
