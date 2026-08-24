@@ -1,6 +1,41 @@
 # Note: some symbols in a YAML file have special meanings, like `:` and `-`.
 # Make sure to enclose strings that contain these symbols in quotes.
 
+- title: "Gemini 2.5: Pushing the frontier with advanced reasoning, multimodality, long context, and next generation agentic capabilities"
+  authors:
+    - Gemini Team, Google
+  venues:
+    - name: arXiv:2507.06261
+      year: 2025
+  url: https://arxiv.org/abs/2507.06261
+  links:
+    Gemini: https://deepmind.google/models/gemini/
+
+- title: "Gemini 1.5: Unlocking multimodal understanding across millions of tokens of context"
+  authors:
+    - Gemini Team, Google
+  venues:
+    - name: arXiv:2403.05530
+      year: 2024
+  url: https://arxiv.org/abs/2403.05530
+
+- title: Large Language Models as Analogical Reasoners
+  authors:
+    - Michihiro Yasunaga
+    - Xinyun Chen
+    - Yujia Li
+    - Panupong Pasupat
+    - Jure Leskovec
+    - Percy Liang
+    - Ed H. Chi
+    - Denny Zhou
+  venues:
+    - name: International Conference on Learning Representations (ICLR)
+      year: 2024
+    - name: arXiv:2310.01714
+      year: 2023
+  url: https://arxiv.org/abs/2310.01714
+
 - title: "Gemini: A Family of Highly Capable Multimodal Models"
   authors:
     - Gemini Team, Google
@@ -18,21 +53,6 @@
     - name: Technical Report
       year: 2023
   url: https://storage.googleapis.com/deepmind-media/AlphaCode2/AlphaCode2_Tech_Report.pdf
-
-- title: Large Language Models as Analogical Reasoners
-  authors:
-    - Michihiro Yasunaga
-    - Xinyun Chen
-    - Yujia Li
-    - Panupong Pasupat
-    - Jure Leskovec
-    - Percy Liang
-    - Ed H. Chi
-    - Denny Zhou
-  venues:
-    - name: arXiv:2310.01714
-      year: 2023
-  url: https://arxiv.org/abs/2310.01714
 
 - title: Transformers Meet Directed Graphs
   authors:
@@ -357,7 +377,7 @@
       year: 2018
   url: https://arxiv.org/abs/1812.01483
 
-- title: Deep Reinforcement Learing with Relational Inductive Biases
+- title: Deep Reinforcement Learning with Relational Inductive Biases
   authors:
     - Vinicius Zambaldi
     - David Raposo

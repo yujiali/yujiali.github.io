@@ -6,8 +6,9 @@
       year: 2021, 2022, 2023
 - role: Action Editor
   venues:
-  - name: TMLR
-- role: Reviewer
+    - name: TMLR
+      year: 2022-2024
+- role: Conference Reviewer
   venues:
     - name: NeurIPS
       year: 2015-2019
@@ -21,6 +22,11 @@
       year: 2017, 2019
     - name: ECCV
       year: 2016
+- role: Journal Reviewer
+  venues:
+    - name: Nature
     - name: JMLR
     - name: IJCV
     - name: TPAMI
+    - name: IEEE TNNLS
+    - name: Neurocomputing
