@@ -1,0 +1,8 @@
+title: Yujia Li
+author: Yujia Li
+description: Personal website of Yujia Li.
+url: https://yujiali.github.io
+
+# README is repo documentation, not site content.
+exclude:
+  - README.md

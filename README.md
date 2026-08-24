@@ -2,23 +2,31 @@
 
 [View the website](https://yujiali.github.io/).
 
+## Setup
+
+Install the pinned gems once (they land in `vendor/bundle`, which is git-ignored):
+
+```bash
+bundle install
+```
+
 ## Build
 
 Building site using default configs:
 
 ```bash
-jekyll build
+bundle exec jekyll build
 ```
 
 Then serve the website locally to debug issues:
 ```bash
-jekyll serve
+bundle exec jekyll serve
 ```
 
 If there are special configs, build site using
 
 ```bash
-jekyll build --config <config_file>.yml -d <destination>
+bundle exec jekyll build --config <config_file>.yml -d <destination>
 ```
 
 ## Deployment

@@ -5,3 +5,4 @@ _site_uoft
 .jekyll-metadata
 vendor
 .DS_Store
+.bundle
