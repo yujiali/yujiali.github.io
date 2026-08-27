@@ -25,7 +25,8 @@ jobs:
       - name: Set up Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.1'
+          # Kept in sync with local dev via .ruby-version.
+          ruby-version-file: .ruby-version
           bundler-cache: true
 
       - name: Configure Pages
